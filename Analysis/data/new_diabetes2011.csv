@@ -1,0 +1,62 @@
+Newly Diagnosed Diabetes; Age-Adjusted; Rate per 1000; Adults Aged 20+ Years; California Counties; 2011
+Data downloaded on 30-September-2020
+County,State,CountyFIPS,Rate per 1000,Lower Limit, Upper Limit
+Alameda County,California,06001,7.3,5.6,9.4
+Alpine County,California,06003,8.4,5.4,12.6
+Amador County,California,06005,8.3,5.2,12.8
+Butte County,California,06007,9.0,6.4,11.9
+Calaveras County,California,06009,7.6,5.0,11.3
+Colusa County,California,06011,8.0,5.0,12.0
+Contra Costa County,California,06013,7.6,5.8,9.6
+Del Norte County,California,06015,8.4,5.4,12.7
+El Dorado County,California,06017,6.9,4.6,9.7
+Fresno County,California,06019,9.5,7.3,12.3
+Glenn County,California,06021,7.9,5.0,11.6
+Humboldt County,California,06023,8.1,5.7,11.3
+Imperial County,California,06025,8.2,5.4,12.0
+Inyo County,California,06027,8.4,5.5,12.2
+Kern County,California,06029,10.0,7.5,13.0
+Kings County,California,06031,9.8,6.8,13.7
+Lake County,California,06033,8.9,6.0,12.9
+Lassen County,California,06035,8.9,5.7,12.9
+Los Angeles County,California,06037,7.7,6.2,9.3
+Madera County,California,06039,9.0,6.2,12.6
+Marin County,California,06041,5.3,3.7,7.3
+Mariposa County,California,06043,8.2,5.1,12.8
+Mendocino County,California,06045,7.0,4.7,9.8
+Merced County,California,06047,8.8,6.0,12.3
+Modoc County,California,06049,7.2,4.6,10.9
+Mono County,California,06051,6.9,4.2,10.3
+Monterey County,California,06053,6.7,4.8,9.1
+Napa County,California,06055,6.5,4.5,9.5
+Nevada County,California,06057,5.1,3.3,7.4
+Orange County,California,06059,7.6,5.9,9.4
+Placer County,California,06061,6.5,4.6,8.8
+Plumas County,California,06063,7.3,4.7,11.1
+Riverside County,California,06065,9.9,7.6,12.5
+Sacramento County,California,06067,8.8,6.8,10.9
+San Benito County,California,06069,7.2,4.7,10.7
+San Bernardino County,California,06071,9.7,7.7,12.2
+San Diego County,California,06073,7.9,6.3,9.7
+San Francisco County,California,06075,6.2,4.7,8.4
+San Joaquin County,California,06077,9.8,7.4,12.8
+San Luis Obispo County,California,06079,6.2,4.5,8.6
+San Mateo County,California,06081,6.9,5.1,9.0
+Santa Barbara County,California,06083,6.3,4.5,8.5
+Santa Clara County,California,06085,7.3,5.7,9.3
+Santa Cruz County,California,06087,6.1,4.2,8.4
+Shasta County,California,06089,9.2,6.7,12.5
+Sierra County,California,06091,7.4,4.6,11.7
+Siskiyou County,California,06093,6.7,4.5,9.8
+Solano County,California,06095,10.4,7.7,13.8
+Sonoma County,California,06097,5.6,4.0,7.6
+Stanislaus County,California,06099,9.8,7.1,12.9
+Sutter County,California,06101,8.4,5.7,12.1
+Tehama County,California,06103,8.1,5.3,12.0
+Trinity County,California,06105,7.4,4.8,11.1
+Tulare County,California,06107,7.7,5.5,10.5
+Tuolumne County,California,06109,8.1,5.2,12.1
+Ventura County,California,06111,6.6,4.9,8.7
+Yolo County,California,06113,7.3,5.1,10.1
+Yuba County,California,06115,8.8,6.0,12.5
+US Diabetes Surveillance System; www.cdc.gov/diabetes/data; Division of Diabetes Translation - Centers for Disease Control and Prevention.
