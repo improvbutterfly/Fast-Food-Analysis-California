@@ -19,6 +19,168 @@ Revised and collected data we then used to draw conclusions can be found in:
 
 ## The Analysis
 
+### Plotting Demographic Data vs. Obesity Rate
+
+#### Per Capita Income vs. Obesity Rate, 2011
+
+![Per Capita Income vs. Obesity Rate, 2011](Analysis/Charts/obesity_income_2011.png)
+
+R value: -0.7849292553105964
+R-squared value: 0.6161139358424474
+
+#### Per Capita Income vs. Obesity Rate, 2016
+
+![Per Capita Income vs. Obesity Rate, 2016](Analysis/Charts/obesity_income_2016.png)
+
+R value: -0.7532467718723405
+R-squared value: 0.5673806993361017
+
+#### College Educated Rate vs. Obesity Rate, 2016
+
+![College Educated Rate vs. Obesity Rate, 2016](Analysis/Charts/obesity_college_2016.png)
+
+R value: -0.8120860848378118
+R-squared value: 0.6594838091872056
+
+#### Unemployment Rate vs. Obesity Rate, 2011
+
+![Unemployment Rate vs. Obesity Rate, 2011](Analysis/Charts/obesity_unemployment_2011.png)
+
+R value: 0.25256780628906106
+R-squared value: 0.06379049677366867
+
+#### Unemployment Rate vs. Obesity Rate, 2016
+
+![Unemployment Rate vs. Obesity Rate, 2016](Analysis/Charts/obesity_unemployment_2016.png)
+
+R value: 0.5316690237368231
+R-squared value: 0.2826719508012666
+
+### Plotting Demographic and Health Data vs. Fast Food Restaurants per 10,000 Population
+
+#### Total Fast Food Restaurants vs. Total County Population, 2011
+
+![Total Fast Food Restaurants vs. Total County Population, 2011](Analysis/Charts/ff_population_2011.png)
+
+R value: 0.9972661756369081
+R-squared value: 0.9945398250694645
+
+#### Total Fast Food Restaurants vs. Total County Population, 2016
+
+![Total Fast Food Restaurants vs. Total County Population, 2016](Analysis/Charts/ff_population_2016.png)
+
+R value: 0.9964866536107665
+R-squared value: 0.9929856508243837
+
+#### Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2011
+
+![Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/ff_household_income_2011.png)
+
+R value: 0.27834651117497866
+R-squared value: 0.07747678028328252
+
+#### Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2016
+
+![Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/ff_household_income_2016.png)
+
+R value: 0.5526455240753612
+R-squared value: 0.3054170752805306
+
+#### College Educated Rate vs. Fast Food Restaurants per 10,000 Population, 2016
+
+![College Educated Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_college_2016.png)
+
+R value: 0.5725099432278867
+R-squared value: 0.32776763509479806
+
+#### Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2011
+
+![Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_diabetes_2011.png)
+
+R value: -0.15058799370788611
+R-squared value: 0.022676743848966348
+
+#### Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2016
+
+![Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_diabetes_2016.png)
+
+R value: -0.1791024539510132
+R-squared value: 0.03207768901127481
+
+#### Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2011
+
+![Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_income_2011.png)
+
+R value: 0.397767101106243
+R-squared value: 0.15821866672246415
+
+#### Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2016
+
+![Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_income_2016.png)
+
+R value: 0.5266912680213057
+R-squared value: 0.2774036918098909
+
+#### New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2011
+
+![New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_new_diabetes_2011.png)
+
+R value: -0.21390288619638717
+R-squared value: 0.04575444472314456
+
+#### New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2016
+
+![New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_new_diabetes_2016.png)
+
+R value: -0.4192249412583733
+R-squared value: 0.17574955137308654
+
+#### Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2011
+
+![Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_obesity_2011.png)
+
+R value: -0.3588707718009065
+R-squared value: 0.1287882308529783
+
+#### Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2016
+
+![Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_obesity_2016.png)
+
+R value: -0.5707195340440635
+R-squared value: 0.32572078653947295
+
+#### Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2011
+
+![Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_poverty_2011.png)
+
+R value: -0.19659993120697924
+R-squared value: 0.03865153295058897
+
+#### Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2016
+
+![Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_poverty_2016.png)
+
+R value: -0.2511834003081931
+R-squared value: 0.06309310059038598
+
+#### Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2011
+
+![Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_unemployment_2011.png)
+
+R value: -0.4074183720553898
+R-squared value: 0.16598972988826402
+
+#### Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2016
+
+![Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_unemployment_2016.png)
+
+R value: -0.5967618843920007
+R-squared value: 0.35612474666309163
+
+#### Median Age vs. Fast Food Restaurants per 10,000 Population, 2011 & 2016
+
+![Median Age vs. Fast Food Restaurants per 10,000 Population, 2011 & 2016](Analysis/Charts/median_age_v_ff_scatter.png)
+
 ### Mapping the Data Across the Counties
 
 ![2011/2016 Fast Food Restaurant Change](Graphs/california_by_county/CA_2011_2016_Fast_Food_Change.png)
@@ -51,119 +213,3 @@ Revised and collected data we then used to draw conclusions can be found in:
 
 ![](Graphs/california_by_county/CA_2016_Population.png)
 
-### Plotting Demographic Data vs. Obesity Rate
-
-#### Per Capita Income vs. Obesity Rate, 2011
-![Per Capita Income vs. Obesity Rate, 2011](Analysis/Charts/obesity_income_2011.png)
-R value: -0.7849292553105964
-R-squared value: 0.6161139358424474
-
-#### Per Capita Income vs. Obesity Rate, 2016
-![Per Capita Income vs. Obesity Rate, 2016](Analysis/Charts/obesity_income_2016.png)
-R value: -0.7532467718723405
-R-squared value: 0.5673806993361017
-
-#### College Educated Rate vs. Obesity Rate, 2016
-![College Educated Rate vs. Obesity Rate, 2016](Analysis/Charts/obesity_college_2016.png)
-R value: -0.8120860848378118
-R-squared value: 0.6594838091872056
-
-#### Unemployment Rate vs. Obesity Rate, 2011
-![Unemployment Rate vs. Obesity Rate, 2011](Analysis/Charts/obesity_unemployment_2011.png)
-R value: 0.25256780628906106
-R-squared value: 0.06379049677366867
-
-#### Unemployment Rate vs. Obesity Rate, 2016
-![Unemployment Rate vs. Obesity Rate, 2016](Analysis/Charts/obesity_unemployment_2016.png)
-R value: 0.5316690237368231
-R-squared value: 0.2826719508012666
-
-### Plotting Demographic and Health Data vs. Fast Food Restaurants per 10,000 Population
-
-#### Total Fast Food Restaurants vs. Total County Population, 2011
-![Total Fast Food Restaurants vs. Total County Population, 2011](Analysis/Charts/ff_population_2011.png)
-R value: 0.9972661756369081
-R-squared value: 0.9945398250694645
-
-#### Total Fast Food Restaurants vs. Total County Population, 2016
-![Total Fast Food Restaurants vs. Total County Population, 2016](Analysis/Charts/ff_population_2016.png)
-R value: 0.9964866536107665
-R-squared value: 0.9929856508243837
-
-#### Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2011
-![Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/ff_household_income_2011.png)
-R value: 0.27834651117497866
-R-squared value: 0.07747678028328252
-
-#### Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2016
-![Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/ff_household_income_2016.png)
-R value: 0.5526455240753612
-R-squared value: 0.3054170752805306
-
-#### College Educated Rate vs. Fast Food Restaurants per 10,000 Population, 2016
-![College Educated Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_college_2016.png)
-R value: 0.5725099432278867
-R-squared value: 0.32776763509479806
-
-#### Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2011
-![Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_diabetes_2011.png)
-R value: -0.15058799370788611
-R-squared value: 0.022676743848966348
-
-#### Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2016
-![Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_diabetes_2016.png)
-R value: -0.1791024539510132
-R-squared value: 0.03207768901127481
-
-#### Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2011
-![Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_income_2011.png)
-R value: 0.397767101106243
-R-squared value: 0.15821866672246415
-
-#### Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2016
-![Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_income_2016.png)
-R value: 0.5266912680213057
-R-squared value: 0.2774036918098909
-
-#### New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2011
-![New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_new_diabetes_2011.png)
-R value: -0.21390288619638717
-R-squared value: 0.04575444472314456
-
-#### New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2016
-![New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_new_diabetes_2016.png)
-R value: -0.4192249412583733
-R-squared value: 0.17574955137308654
-
-#### Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2011
-![Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_obesity_2011.png)
-R value: -0.3588707718009065
-R-squared value: 0.1287882308529783
-
-#### Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2016
-![Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_obesity_2016.png)
-R value: -0.5707195340440635
-R-squared value: 0.32572078653947295
-
-#### Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2011
-![Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_poverty_2011.png)
-R value: -0.19659993120697924
-R-squared value: 0.03865153295058897
-
-#### Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2016
-![Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_poverty_2016.png)
-R value: -0.2511834003081931
-R-squared value: 0.06309310059038598
-
-#### Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2011
-![Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_unemployment_2011.png)
-R value: -0.4074183720553898
-R-squared value: 0.16598972988826402
-
-#### Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2016
-![Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_unemployment_2016.png)
-R value: -0.5967618843920007
-R-squared value: 0.35612474666309163
-
-#### Median Age vs. Fast Food Restaurants per 10,000 Population, 2011 & 2016
-![Median Age vs. Fast Food Restaurants per 10,000 Population, 2011 & 2016](Analysis/Charts/median_age_v_ff_scatter.png)
