@@ -43,7 +43,7 @@ Revised and collected data we then used to draw conclusions can be found in:
 
 ![2016 College Educated Rates](Graphs/california_by_county/CA_2016_College_Rates.png)
 
-![](Graphs/california_by_county/CA_2016_Fast_Food_10000.png)
+![2016 Fast Food Restaurants Per 10,000 Population](Graphs/california_by_county/CA_2016_Fast_Food_10000.png)
 
 ![](Graphs/california_by_county/CA_2016_Fast_Food_Numbers.png)
 
