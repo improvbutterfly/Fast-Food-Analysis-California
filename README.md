@@ -321,3 +321,8 @@ R-squared value: 0.35612474666309163
 
 ![](Graphs/california_by_county/CA_2016_Population.png)
 
+![](Graphs/california_by_county/CA_2011_Per_capita.png)
+
+![](Graphs/california_by_county/CA_2016_per_capita.png)
+
+![](Graphs/CA_2016_2011_Per_Capita_Change.png)
