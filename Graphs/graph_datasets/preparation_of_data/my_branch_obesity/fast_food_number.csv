@@ -1,0 +1,59 @@
+County,CountyFIPS,2011 Fast Food Number,2016 Fast Food Number
+Alameda,6001,1090,1293
+Alpine,6003,2,0
+Amador,6005,12,21
+Butte,6007,147,158
+Calaveras,6009,26,30
+Colusa,6011,16,8
+Contra Costa,6013,599,701
+Del Norte,6015,15,10
+El Dorado,6017,97,110
+Fresno,6019,569,634
+Glenn,6021,12,15
+Humboldt,6023,95,97
+Imperial,6025,81,103
+Inyo,6027,13,15
+Kern,6029,528,603
+Kings,6031,90,89
+Lake,6033,30,33
+Lassen,6035,13,15
+Los Angeles,6037,7211,8264
+Madera,6039,75,78
+Marin,6041,171,189
+Mariposa,6043,9,8
+Mendocino,6045,52,54
+Merced,6047,127,143
+Modoc,6049,7,3
+Mono,6051,18,21
+Monterey,6053,246,264
+Napa,6055,76,82
+Nevada,6057,53,65
+Orange,6059,2575,3025
+Placer,6061,274,334
+Plumas,6063,13,9
+Riverside,6065,1331,1541
+Sacramento,6067,937,1075
+San Benito,6069,26,28
+San Bernardino,6071,1346,1526
+San Diego,6073,2348,2736
+San Francisco,6075,753,958
+San Joaquin,6077,401,466
+San Luis Obispo,6079,219,234
+San Mateo,6081,501,593
+Santa Barbara,6083,286,344
+Santa Clara,6085,1288,1544
+Santa Cruz,6087,171,175
+Shasta,6089,133,122
+Sierra,6091,1,1
+Siskiyou,6093,29,28
+Solano,6095,270,290
+Sonoma,6097,273,291
+Stanislaus,6099,327,366
+Sutter,6101,51,59
+Tehama,6103,34,33
+Trinity,6105,12,6
+Tulare,6107,215,264
+Tuolumne,6109,31,26
+Ventura,6111,553,634
+Yolo,6113,138,152
+Yuba,6115,31,29
