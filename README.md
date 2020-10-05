@@ -55,6 +55,14 @@ R value: 0.6541529316861476
 
 R-squared value: 0.42791605803358174
 
+### Plotting Per Capita Income vs. College Educated Rate
+
+![Per Capita Income vs. College Educated Rate, 2016](Analysis/Charts/income_college_2016.png)
+
+R value: 0.9404077031123526
+
+R-squared value: 0.8843666480730507
+
 ### Plotting Demographic Data vs. Obesity Rate
 
 #### Per Capita Income vs. Obesity Rate, 2011
