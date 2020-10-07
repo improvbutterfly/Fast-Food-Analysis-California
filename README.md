@@ -3,9 +3,38 @@ Analyzing fast food chains against population demographics and health data in Ca
 
 Project authors: Dominica Corless, Kelsey Cox, Jeremy Jang, Jeremy Steele, Stanley Tan
 
-[Project Presentation](Project/Fast Food Analysis.pptx)
+## Summary
 
-## The Data
+### The Questions
+
+* Is there any correlation between the number of fast food restaurants and health statistics and/or demographcs in California counties? 
+* Are fast food restaurants inherently predatory and position themselves more prominently in counties with particular demographics?
+* Are health concerns (like diabetes and obesity) that are most frequently associated with unhealthy eating like fast food higher in counties with more fast food restaurants?
+* If there is little or no correlation with the number of fast food restaurants, then what else can we discover? Is there any other correlation between health and demographics?
+
+### Overview Files and Folders
+
+* [Project Presentation](Project/Fast_Food_Analysis_PP.pptx)
+* [Write Up](Project/Write-Up.docx)
+
+**Exploring the data in Jupyter Notebooks:**
+* [Exploring the Data with Scatterplots Notebook](Analysis/chart_code_pretty.ipynb)
+* [Bar Charts of California Socioeconomic Demographics](Analysis/Socioeconomic%20Status%20Data%20Cleaning.ipynb)
+* [Heat maps of California County Data](Graphs/graph_examples_from_.ipynb)
+
+**Data collection and cleaning:**
+* [Combining Fast Food Data, then combining with health and demographics data](Analysis/DataCollection.ipynb)
+* [Combining Fast Food Data with Diabetes and Obesity Data](Analysis/health_data.ipynb)
+* [Collecting Census Data 2011](Census/Census_Data_2011.ipynb)
+* [Collecting Census Data 2016](Census/Census_Data_2016.ipynb)
+
+**Output Image Folders:**
+* [Scatterplots](Analysis/Charts/)
+* [Bar Charts of California Demographics vs. Obesity Rates](Analysis/bar_charts/)
+* [Heat Maps of California by County](Graphs/california_by_county/)
+* [Comparison Heat Maps](Graphs/combined/)
+
+### The Data
 
 We used several sources for the data, all governmental sources. Data on the number of fast food restaurants in each county in California came from [United States Department of Agriculture](https://www.ers.usda.gov/data-products/food-environment-atlas/go-to-the-atlas/). California Census Data came from the Census API using the [Census Package](https://github.com/datamade/census). Health data came from the [CDC](https://gis.cdc.gov/grasp/diabetes/DiabetesAtlas.html).
 
@@ -19,135 +48,8 @@ Revised and collected data we then used to draw conclusions can be found in:
 
 ## The Analysis
 
-### Obesity Rate by Demographics in California (Bar Charts)
+### Any Correlation for Fast Food Restaurants with Health and Demographics?
 
-![Obesity Rate by Age, 2011](Analysis/bar_charts/age_vs_obesity_2011.png)
-
-![Obesity Rate by Age, 2016](Analysis/bar_charts/age_vs_obesity_2016.png)
-
-![Obesity Rate by Education, 2011](Analysis/bar_charts/education_vs_obesity_2011.png)
-
-![Obesity Rate by Education, 2016](Analysis/bar_charts/education_vs_obesity_2016.png)
-
-![Obesity Rate by Gender, 2011](Analysis/bar_charts/gender_vs_obesity_2011.png)
-
-![Obesity Rate by Gender, 2016](Analysis/bar_charts/gender_vs_obesity_2016.png)
-
-![Obesity Rate by Income, 2011](Analysis/bar_charts/Income_vs_obesity_2011.png)
-
-![Obesity Rate by Income, 2016](Analysis/bar_charts/Income_vs_obesity_2016.png)
-
-![Obesity Rate by Race, 2011](Analysis/bar_charts/race_vs_obesity_2011.png)
-
-![Obesity Rate by Race, 2016](Analysis/bar_charts/race_vs_obesity_2016.png)
-
-### Plotting Diabetes Rate vs. Obesity Rate
-
-![Diagnosed Diabetes Rate vs. Obesity Rate, 2011](Analysis/Charts/obesity_diabetes_2011.png)
-
-R value: 0.7379222293613767
-
-R-squared value: 0.5445292165856643
-
-![Diagnosed Diabetes Rate vs. Obesity Rate, 2016](Analysis/Charts/obesity_diabetes_2016.png)
-
-R value: 0.6541529316861476
-
-R-squared value: 0.42791605803358174
-
-### Plotting Per Capita Income vs. College Educated Rate
-
-![Per Capita Income vs. College Educated Rate, 2016](Analysis/Charts/income_college_2016.png)
-
-R value: 0.9404077031123526
-
-R-squared value: 0.8843666480730507
-
-### Plotting Demographic Data vs. Obesity Rate
-
-#### Per Capita Income vs. Obesity Rate, 2011
-
-![Per Capita Income vs. Obesity Rate, 2011](Analysis/Charts/obesity_income_2011.png)
-
-R value: -0.7849292553105964
-
-R-squared value: 0.6161139358424474
-
-#### Per Capita Income vs. Obesity Rate, 2016
-
-![Per Capita Income vs. Obesity Rate, 2016](Analysis/Charts/obesity_income_2016.png)
-
-R value: -0.7532467718723405
-
-R-squared value: 0.5673806993361017
-
-#### College Educated Rate vs. Obesity Rate, 2016
-
-![College Educated Rate vs. Obesity Rate, 2016](Analysis/Charts/obesity_college_2016.png)
-
-R value: -0.8120860848378118
-
-R-squared value: 0.6594838091872056
-
-#### Unemployment Rate vs. Obesity Rate, 2011
-
-![Unemployment Rate vs. Obesity Rate, 2011](Analysis/Charts/obesity_unemployment_2011.png)
-
-R value: 0.25256780628906106
-
-R-squared value: 0.06379049677366867
-
-#### Unemployment Rate vs. Obesity Rate, 2016
-
-![Unemployment Rate vs. Obesity Rate, 2016](Analysis/Charts/obesity_unemployment_2016.png)
-
-R value: 0.5316690237368231
-
-R-squared value: 0.2826719508012666
-
-### Plotting Demographic Data vs. Diagnosed Diabetes Rate
-
-#### College Educated Rate vs. Diagnosed Diabetes Rate, 2016
-
-![College Educated Rate vs. Diagnosed Diabete Rate, 2016](Analysis/Charts/diabetes_college_2016.png)
-
-R value: -0.5725881773413534
-
-R-squared value: 0.32785722083109314
-
-#### Unemployment Rate vs. Diagnosed Diabetes Rate, 2011
-
-![Unemployment Rate vs. Diagnosed Diabete Rate, 2011](Analysis/Charts/diabetes_unemployment_2011.png)
-
-R value: 0.1790753346455579
-
-R-squared value: 0.032067975478418546
-
-#### Unemployment Rate vs. Diagnosed Diabetes Rate, 2016
-
-![Unemployment Rate vs. Diagnosed Diabete Rate, 2016](Analysis/Charts/diabetes_unemployment_2016.png)
-
-R value: 0.29152483905513416
-
-R-squared value: 0.08498673178612187
-
-#### Per Capita Income vs. Diagnosed Diabetes Rate, 2011
-
-![Per Capita Income vs. Diagnosed Diabete Rate, 2011](Analysis/Charts/diabetes_income_2011.png)
-
-R value: -0.5667164483041154
-
-R-squared value: 0.3211675327784311
-
-#### Per Capita Income vs. Diagnosed Diabetes Rate, 2016
-
-![Per Capita Income vs. Diagnosed Diabete Rate, 2016](Analysis/Charts/diabetes_income_2016.png)
-
-R value: -0.5094481839187359
-
-R-squared value: 0.2595374520980982
-
-### Plotting Demographic and Health Data vs. Fast Food Restaurants per 10,000 Population
 
 #### Total Fast Food Restaurants vs. Total County Population, 2011
 
@@ -201,9 +103,9 @@ R-squared value: 0.022676743848966348
 
 ![Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_diabetes_2016.png)
 
-R value: -0.1791024539510132
+R value: -0.38130812673053355
 
-R-squared value: 0.03207768901127481
+R-squared value: 0.14539588751074864
 
 #### Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2011
 
@@ -269,25 +171,77 @@ R value: -0.2511834003081931
 
 R-squared value: 0.06309310059038598
 
-#### Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2011
+### Obesity Rate by Demographics in California (Bar Charts)
 
-![Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_unemployment_2011.png)
+![Obesity Rate by Education, 2011](Analysis/bar_charts/education_vs_obesity_2011.png)
 
-R value: -0.4074183720553898
+![Obesity Rate by Education, 2016](Analysis/bar_charts/education_vs_obesity_2016.png)
 
-R-squared value: 0.16598972988826402
+![Obesity Rate by Income, 2011](Analysis/bar_charts/Income_vs_obesity_2011.png)
 
-#### Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2016
+![Obesity Rate by Income, 2016](Analysis/bar_charts/Income_vs_obesity_2016.png)
 
-![Unemployment Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_unemployment_2016.png)
+### Plotting Per Capita Income vs. College Educated Rate
 
-R value: -0.5967618843920007
+![Per Capita Income vs. College Educated Rate, 2016](Analysis/Charts/income_college_2016.png)
 
-R-squared value: 0.35612474666309163
+R value: 0.9404077031123526
 
-#### Median Age vs. Fast Food Restaurants per 10,000 Population, 2011 & 2016
+R-squared value: 0.8843666480730507
 
-![Median Age vs. Fast Food Restaurants per 10,000 Population, 2011 & 2016](Analysis/Charts/median_age_v_ff_scatter.png)
+### Plotting Demographic Data vs. Obesity Rate
+
+#### Per Capita Income vs. Obesity Rate, 2011
+
+![Per Capita Income vs. Obesity Rate, 2011](Analysis/Charts/obesity_income_2011.png)
+
+R value: -0.7849292553105964
+
+R-squared value: 0.6161139358424474
+
+#### Per Capita Income vs. Obesity Rate, 2016
+
+![Per Capita Income vs. Obesity Rate, 2016](Analysis/Charts/obesity_income_2016.png)
+
+R value: -0.7532467718723405
+
+R-squared value: 0.5673806993361017
+
+#### College Educated Rate vs. Obesity Rate, 2016
+
+![College Educated Rate vs. Obesity Rate, 2016](Analysis/Charts/obesity_college_2016.png)
+
+R value: -0.8120860848378118
+
+R-squared value: 0.6594838091872056
+
+### Plotting Demographic Data vs. Diagnosed Diabetes Rate
+
+#### College Educated Rate vs. Diagnosed Diabetes Rate, 2016
+
+![College Educated Rate vs. Diagnosed Diabete Rate, 2016](Analysis/Charts/diabetes_college_2016.png)
+
+R value: -0.5725881773413534
+
+R-squared value: 0.32785722083109314
+
+#### Per Capita Income vs. Diagnosed Diabetes Rate, 2011
+
+![Per Capita Income vs. Diagnosed Diabete Rate, 2011](Analysis/Charts/diabetes_income_2011.png)
+
+R value: -0.5667164483041154
+
+R-squared value: 0.3211675327784311
+
+#### Per Capita Income vs. Diagnosed Diabetes Rate, 2016
+
+![Per Capita Income vs. Diagnosed Diabete Rate, 2016](Analysis/Charts/diabetes_income_2016.png)
+
+R value: -0.5094481839187359
+
+R-squared value: 0.2595374520980982
+
+### Plotting Demographic and Health Data vs. Fast Food Restaurants per 10,000 Population
 
 ### Mapping the Data Across the Counties
 
