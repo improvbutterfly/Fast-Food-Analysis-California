@@ -200,8 +200,6 @@ Revised and collected data we then used to draw conclusions can be found in:
 
 ![2011/2016 Population Change](Graphs/california_by_county/CA_2011_2016_Pop_changes.png)
 
-![2011 Fast Food Numbers](Graphs/california_by_county/CA_2011_Fast_Food_Numbers.png)
-
 ![2011 Obesity](Graphs/california_by_county/CA_2011_Obesity.png)
 
 ![2011 Population](Graphs/california_by_county/CA_2011_Population.png)
