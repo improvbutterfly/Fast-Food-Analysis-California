@@ -51,22 +51,6 @@ Revised and collected data we then used to draw conclusions can be found in:
 ### Any Correlation for Fast Food Restaurants with Health and Demographics?
 
 
-#### Total Fast Food Restaurants vs. Total County Population, 2011
-
-![Total Fast Food Restaurants vs. Total County Population, 2011](Analysis/Charts/ff_population_2011.png)
-
-R value: 0.9972661756369081
-
-R-squared value: 0.9945398250694645
-
-#### Total Fast Food Restaurants vs. Total County Population, 2016
-
-![Total Fast Food Restaurants vs. Total County Population, 2016](Analysis/Charts/ff_population_2016.png)
-
-R value: 0.9964866536107665
-
-R-squared value: 0.9929856508243837
-
 #### Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2011
 
 ![Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/ff_household_income_2011.png)
@@ -170,6 +154,14 @@ R-squared value: 0.03865153295058897
 R value: -0.2511834003081931
 
 R-squared value: 0.06309310059038598
+
+#### Total Fast Food Restaurants vs. Total County Population
+
+| 2011 | 2016 |
+| ---- | ---- |
+| ![Total Fast Food Restaurants vs. Total County Population, 2011](Analysis/Charts/ff_population_2011.png) | ![Total Fast Food Restaurants vs. Total County Population, 2016](Analysis/Charts/ff_population_2016.png) |
+| R value: 0.9972661756369081 | R value: 0.9964866536107665 |
+| R-squared value: 0.9945398250694645 | R-squared value: 0.9929856508243837 |
 
 ### Obesity Rate by Demographics in California (Bar Charts)
 
