@@ -51,109 +51,61 @@ Revised and collected data we then used to draw conclusions can be found in:
 ### Any Correlation for Fast Food Restaurants with Health and Demographics?
 
 
-#### Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2011
+#### Obesity Rate vs. Fast Food Restaurants per 10,000 Population
 
-![Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/ff_household_income_2011.png)
+| 2011 | 2016 |
+| ---- | ---- |
+| ![Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_obesity_2011.png) | ![Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_obesity_2016.png) |
+| R value: -0.3588707718009065 | R value: -0.5707195340440635 |
+| R-squared value: 0.1287882308529783 | R-squared value: 0.32572078653947295 |
 
-R value: 0.27834651117497866
+#### Diabetes Rate vs. Fast Food Restaurants per 10,000 Population
 
-R-squared value: 0.07747678028328252
+| 2011 | 2016 |
+| ---- | ---- |
+| ![Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_diabetes_2011.png) | ![Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_diabetes_2016.png) |
+| R value: -0.15058799370788611 | R value: -0.38130812673053355 |
+| R-squared value: 0.022676743848966348 | R-squared value: 0.14539588751074864 |
 
-#### Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2016
+* No significant correlation here.
 
-![Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/ff_household_income_2016.png)
+#### Per Capita Income vs. Fast Food Restaurants per 10,000 Population
 
-R value: 0.5526455240753612
+| 2011 | 2016 |
+| ---- | ---- |
+| ![Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_income_2011.png) | ![Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_income_2016.png) |
+| R value: 0.397767101106243 | R value: 0.5266912680213057 |
+| R-squared value: 0.15821866672246415 | R-squared value: 0.2774036918098909 |
 
-R-squared value: 0.3054170752805306
+* No significant correlation here.
 
-#### College Educated Rate vs. Fast Food Restaurants per 10,000 Population, 2016
+#### Median Household Income vs. Fast Food Restaurants per 10,000 Population
 
-![College Educated Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_college_2016.png)
+| 2011 | 2016 |
+| ---- | ---- |
+| ![Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/ff_household_income_2011.png) | ![Median Household Income vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/ff_household_income_2016.png) |
+| R value: 0.27834651117497866 | R value: 0.5526455240753612 |
+| R-squared value: 0.07747678028328252 | R-squared value: 0.3054170752805306 |
 
-R value: 0.5725099432278867
+* No significant correlation here.
 
-R-squared value: 0.32776763509479806
+#### Poverty Rate vs. Fast Food Restaurants per 10,000 Population
 
-#### Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2011
+| 2011 | 2016 |
+| ---- | ---- |
+| ![Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_poverty_2011.png) | ![Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_poverty_2016.png) |
+| R value: -0.19659993120697924 | R value: -0.2511834003081931 |
+| R-squared value: 0.03865153295058897 | R-squared value: 0.06309310059038598 |
 
-![Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_diabetes_2011.png)
+* No significant correlation here.
 
-R value: -0.15058799370788611
+#### College Educated Rate vs. Fast Food Restaurants per 10,000 Population
 
-R-squared value: 0.022676743848966348
-
-#### Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2016
-
-![Diabetes Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_diabetes_2016.png)
-
-R value: -0.38130812673053355
-
-R-squared value: 0.14539588751074864
-
-#### Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2011
-
-![Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_income_2011.png)
-
-R value: 0.397767101106243
-
-R-squared value: 0.15821866672246415
-
-#### Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2016
-
-![Per Capita Income vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_income_2016.png)
-
-R value: 0.5266912680213057
-
-R-squared value: 0.2774036918098909
-
-#### New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2011
-
-![New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_new_diabetes_2011.png)
-
-R value: -0.21390288619638717
-
-R-squared value: 0.04575444472314456
-
-#### New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2016
-
-![New Diabetes Diagnosis per 1K Population vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_new_diabetes_2016.png)
-
-R value: -0.4192249412583733
-
-R-squared value: 0.17574955137308654
-
-#### Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2011
-
-![Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_obesity_2011.png)
-
-R value: -0.3588707718009065
-
-R-squared value: 0.1287882308529783
-
-#### Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2016
-
-![Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_obesity_2016.png)
-
-R value: -0.5707195340440635
-
-R-squared value: 0.32572078653947295
-
-#### Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2011
-
-![Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_poverty_2011.png)
-
-R value: -0.19659993120697924
-
-R-squared value: 0.03865153295058897
-
-#### Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2016
-
-![Poverty Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_poverty_2016.png)
-
-R value: -0.2511834003081931
-
-R-squared value: 0.06309310059038598
+| 2016 |
+| ---- |
+| ![College Educated Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_college_2016.png) |
+| R value: 0.5725099432278867 |
+| R-squared value: 0.32776763509479806 |
 
 #### Total Fast Food Restaurants vs. Total County Population
 
@@ -162,6 +114,8 @@ R-squared value: 0.06309310059038598
 | ![Total Fast Food Restaurants vs. Total County Population, 2011](Analysis/Charts/ff_population_2011.png) | ![Total Fast Food Restaurants vs. Total County Population, 2016](Analysis/Charts/ff_population_2016.png) |
 | R value: 0.9972661756369081 | R value: 0.9964866536107665 |
 | R-squared value: 0.9945398250694645 | R-squared value: 0.9929856508243837 |
+
+* Super strong correlation here suggests the number of fast food restaurants in a county is based purely on the size of the population.
 
 ### Obesity Rate by Demographics in California (Bar Charts)
 
