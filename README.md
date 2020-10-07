@@ -20,13 +20,14 @@ Project authors: Dominica Corless, Kelsey Cox, Jeremy Jang, Jeremy Steele, Stanl
 **Exploring the data in Jupyter Notebooks:**
 * [Exploring the Data with Scatterplots Notebook](Analysis/chart_code_pretty.ipynb)
 * [Bar Charts of California Socioeconomic Demographics](Analysis/Socioeconomic%20Status%20Data%20Cleaning.ipynb)
-* [Heat maps of California County Data](Graphs/graph_examples_from_.ipynb)
+* [Heat maps of California County Data](Graphs/obtaining_graphs.ipynb)
 
 **Data collection and cleaning:**
 * [Combining Fast Food Data, then combining with health and demographics data](Analysis/DataCollection.ipynb)
 * [Combining Fast Food Data with Diabetes and Obesity Data](Analysis/health_data.ipynb)
 * [Collecting Census Data 2011](Census/Census_Data_2011.ipynb)
 * [Collecting Census Data 2016](Census/Census_Data_2016.ipynb)
+* [Collecting Census Education Data](Census/Census_API_Education_Data.ipynb)
 
 **Output Image Folders:**
 * [Scatterplots](Analysis/Charts/)
