@@ -50,7 +50,6 @@ Revised and collected data we then used to draw conclusions can be found in:
 
 ### Any Correlation for Fast Food Restaurants with Health and Demographics?
 
-
 #### Obesity Rate vs. Fast Food Restaurants per 10,000 Population
 
 | 2011 | 2016 |
@@ -58,6 +57,8 @@ Revised and collected data we then used to draw conclusions can be found in:
 | ![Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2011](Analysis/Charts/food_obesity_2011.png) | ![Obesity Rate vs. Fast Food Restaurants per 10,000 Population, 2016](Analysis/Charts/food_obesity_2016.png) |
 | R value: -0.3588707718009065 | R value: -0.5707195340440635 |
 | R-squared value: 0.1287882308529783 | R-squared value: 0.32572078653947295 |
+
+* Stronger correlation in 2016, though still moderate correlation, and the regression line suggests that obesity rates are higher in counties with fewer fast food restaurants for the population. What does this mean? Does it have something to do with limited choices of fast food restaurants?
 
 #### Diabetes Rate vs. Fast Food Restaurants per 10,000 Population
 
@@ -77,7 +78,7 @@ Revised and collected data we then used to draw conclusions can be found in:
 | R value: 0.397767101106243 | R value: 0.5266912680213057 |
 | R-squared value: 0.15821866672246415 | R-squared value: 0.2774036918098909 |
 
-* No significant correlation here.
+* No significant correlation here. 2016 has moderate correlation and a regression line that suggests counties with higher per capita incomes have more choices of fast food restaurants.
 
 #### Median Household Income vs. Fast Food Restaurants per 10,000 Population
 
@@ -87,7 +88,7 @@ Revised and collected data we then used to draw conclusions can be found in:
 | R value: 0.27834651117497866 | R value: 0.5526455240753612 |
 | R-squared value: 0.07747678028328252 | R-squared value: 0.3054170752805306 |
 
-* No significant correlation here.
+* No significant correlation here. 2016 has moderate correlation and a regression line that suggests counties with higher household incomes have more choices of fast food restaurants.
 
 #### Poverty Rate vs. Fast Food Restaurants per 10,000 Population
 
@@ -107,6 +108,8 @@ Revised and collected data we then used to draw conclusions can be found in:
 | R value: 0.5725099432278867 |
 | R-squared value: 0.32776763509479806 |
 
+* This chart suggests there is moderate correlation that counties with more college graduates have more choices of fast food restaurants.
+
 #### Total Fast Food Restaurants vs. Total County Population
 
 | 2011 | 2016 |
@@ -119,75 +122,73 @@ Revised and collected data we then used to draw conclusions can be found in:
 
 ### Obesity Rate by Demographics in California (Bar Charts)
 
-![Obesity Rate by Education, 2011](Analysis/bar_charts/education_vs_obesity_2011.png)
+#### Education
 
-![Obesity Rate by Education, 2016](Analysis/bar_charts/education_vs_obesity_2016.png)
+| 2011 | 2016 |
+| ---- | ---- |
+| ![Obesity Rate by Education, 2011](Analysis/bar_charts/education_vs_obesity_2011.png) | ![Obesity Rate by Education, 2016](Analysis/bar_charts/education_vs_obesity_2016.png) |
 
-![Obesity Rate by Income, 2011](Analysis/bar_charts/Income_vs_obesity_2011.png)
+#### Per Capita Income
 
-![Obesity Rate by Income, 2016](Analysis/bar_charts/Income_vs_obesity_2016.png)
-
-### Plotting Per Capita Income vs. College Educated Rate
-
-![Per Capita Income vs. College Educated Rate, 2016](Analysis/Charts/income_college_2016.png)
-
-R value: 0.9404077031123526
-
-R-squared value: 0.8843666480730507
+| 2011 | 2016 |
+| ---- | ---- |
+| ![Obesity Rate by Income, 2011](Analysis/bar_charts/Income_vs_obesity_2011.png) | ![Obesity Rate by Income, 2016](Analysis/bar_charts/Income_vs_obesity_2016.png) |
 
 ### Plotting Demographic Data vs. Obesity Rate
 
-#### Per Capita Income vs. Obesity Rate, 2011
+#### College Educated Rate vs. Obesity Rate
 
-![Per Capita Income vs. Obesity Rate, 2011](Analysis/Charts/obesity_income_2011.png)
+| 2016 |
+| ---- |
+| ![College Educated Rate vs. Obesity Rate, 2016](Analysis/Charts/obesity_college_2016.png) |
+| R value: -0.8120860848378118 |
+| R-squared value: 0.6594838091872056 |
 
-R value: -0.7849292553105964
+* Strong correlation here suggests that higher obesity rates in counties with fewer college graduates. Is it purely education based?
 
-R-squared value: 0.6161139358424474
+#### Per Capita Income vs. Obesity Rate
 
-#### Per Capita Income vs. Obesity Rate, 2016
+| 2011 | 2016 |
+| ---- | ---- |
+| ![Per Capita Income vs. Obesity Rate, 2011](Analysis/Charts/obesity_income_2011.png) | ![Per Capita Income vs. Obesity Rate, 2016](Analysis/Charts/obesity_income_2016.png) |
+| R value: -0.7849292553105964 | R value: -0.7532467718723405
+| R-squared value: 0.6161139358424474 | R-squared value: 0.5673806993361017 |
 
-![Per Capita Income vs. Obesity Rate, 2016](Analysis/Charts/obesity_income_2016.png)
-
-R value: -0.7532467718723405
-
-R-squared value: 0.5673806993361017
-
-#### College Educated Rate vs. Obesity Rate, 2016
-
-![College Educated Rate vs. Obesity Rate, 2016](Analysis/Charts/obesity_college_2016.png)
-
-R value: -0.8120860848378118
-
-R-squared value: 0.6594838091872056
+* Moderate correlation here, nearing strong correlation, suggests that college education and income could be connected with each other to have an impact on obesity rates.
 
 ### Plotting Demographic Data vs. Diagnosed Diabetes Rate
 
-#### College Educated Rate vs. Diagnosed Diabetes Rate, 2016
+#### College Educated Rate vs. Diagnosed Diabetes Rate
 
-![College Educated Rate vs. Diagnosed Diabete Rate, 2016](Analysis/Charts/diabetes_college_2016.png)
+| 2016 |
+| ---- |
+| ![College Educated Rate vs. Diagnosed Diabete Rate, 2016](Analysis/Charts/diabetes_college_2016.png) |
+| R value: -0.5725881773413534 |
+| R-squared value: 0.32785722083109314 |
 
-R value: -0.5725881773413534
-
-R-squared value: 0.32785722083109314
+* Moderate correlation here suggests there are more factors that impact diabetes rates than impact obesity.
 
 #### Per Capita Income vs. Diagnosed Diabetes Rate, 2011
 
-![Per Capita Income vs. Diagnosed Diabete Rate, 2011](Analysis/Charts/diabetes_income_2011.png)
+| 2011 | 2016 |
+| ---- | ---- |
+| ![Per Capita Income vs. Diagnosed Diabete Rate, 2011](Analysis/Charts/diabetes_income_2011.png) | ![Per Capita Income vs. Diagnosed Diabete Rate, 2016](Analysis/Charts/diabetes_income_2016.png) |
+| R value: -0.5667164483041154 | R value: -0.5094481839187359 |
+| R-squared value: 0.3211675327784311 | R-squared value: 0.2595374520980982 |
 
-R value: -0.5667164483041154
+* Moderate correlation here suggests there are more factors that impact diabetes rates than impact obesity.
 
-R-squared value: 0.3211675327784311
+### Plotting Per Capita Income vs. College Educated Rate
 
-#### Per Capita Income vs. Diagnosed Diabetes Rate, 2016
+| 2016 |
+| ---- |
+| ![Per Capita Income vs. College Educated Rate, 2016](Analysis/Charts/income_college_2016.png) |
+| R value: 0.9404077031123526 | 
+| R-squared value: 0.8843666480730507 |
 
-![Per Capita Income vs. Diagnosed Diabete Rate, 2016](Analysis/Charts/diabetes_income_2016.png)
-
-R value: -0.5094481839187359
-
-R-squared value: 0.2595374520980982
-
-### Plotting Demographic and Health Data vs. Fast Food Restaurants per 10,000 Population
+* Really strong correlation between per capita income and college education rates here compounds the theory that they are connected when looking at obesity rates.
+* i.e. More education = better income; better income = easier to afford better healthcare/healthier food options.
+* Given the graphs of this data against number of fast food restaurants, the next thing that would be interesting to explore is the profit fast food restaurants make in the differant counties, and see if that has any correlation with health and demographics.
 
 ### Mapping the Data Across the Counties
 
