@@ -14,7 +14,7 @@ Project authors: Dominica Corless, Kelsey Cox, Jeremy Jang, Jeremy Steele, Stanl
 
 ### Overview Files and Folders
 
-* [Project Presentation](Project/Fast_Food_Analysis_PP.pptx)
+* [Project Presentation](Project/Fast_Food_Analysis_JS_final.ppt)
 * [Write Up](Project/Write-Up.docx)
 
 **Exploring the data in Jupyter Notebooks:**
